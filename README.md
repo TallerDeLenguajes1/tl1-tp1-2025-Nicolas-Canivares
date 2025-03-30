@@ -2,3 +2,5 @@
 
 3.c) En mi repositorio estan los archivos: README.md, tp1_1.c, tp1_1.exe.
 No hace falta que esté el archivo .exe
+g) El resultado es el mismo ya que el contenido del puntero es la direccion de memoria de la variable a la cual esta apuntando. 
+En el punto 4 obtengo otra direccion de memoria, ya que es la de la variable de tipo puntero.
