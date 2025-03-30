@@ -2,12 +2,21 @@
 
 # Primer TP Taller de Lenguajes
 
-## Revise los archivos subidos en su repositorio de github. ¿Qué archivos vé?¿Cuál cree que no hace falta que esté?
 
-3.c) En mi repositorio estan los archivos: README.md, tp1_1.c, tp1_1.exe.
-No hace falta que esté el archivo .exe
+## 2a) Investigar el archivo .gitignore ¿Por qué es conveniente incluirlo? ¿Cuándo se debe hacer?¿Cómo configuraría el archivo .gitignore?
 
-## Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué? Responder en el archivo readme.md
+_Es comveniente incluir el archivo para ignorar archivos innecesarios (ej: temporales, ejecutables) y optimizar el repositorio._
 
-g) El resultado es el mismo ya que el contenido del puntero es la direccion de memoria de la variable a la cual esta apuntando. 
-En el punto 4 obtengo otra direccion de memoria, ya que es la de la variable de tipo puntero.
+_Es conveniente crearlo al iniciar un proyecto_
+
+_Hay que crear un archivo con el nombre .gitignore en la raíz del proyecto._
+
+## 3c) Revise los archivos subidos en su repositorio de github. ¿Qué archivos vé?¿Cuál cree que no hace falta que esté?
+
+_En mi repositorio estan los archivos: README.md, tp1_1.c, tp1_1.exe._
+_No hace falta que esté el archivo .exe_
+
+## 3g) Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué? Responder en el archivo readme.md
+
+_El resultado es el mismo ya que el contenido del puntero es la direccion de memoria de la variable a la cual esta apuntando._
+_En el punto 4 obtengo otra direccion de memoria, ya que es la de la variable de tipo puntero._
