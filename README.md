@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kl-E8VQf)
 
-# Primer TP Taller de Lenguajes
+# Primer TP Taller de Lenguajes 🚀
 
 ## 2a) Investigación sobre .gitignore
 
@@ -24,7 +24,7 @@ Al iniciar un proyecto, antes del primer commit.
 - tp1_1.exe
 
 **Archivo innecesario:**  
-`tp1_1.exe` (es un ejecutable generado al ejecutar el codigo .C)
+`tp1_1.exe` (es un ejecutable generado al compilar el codigo .C)
 
 ## 3g) Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo
 
