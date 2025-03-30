@@ -2,21 +2,37 @@
 
 # Primer TP Taller de Lenguajes
 
+## 2a) Investigación sobre .gitignore
 
-## 2a) Investigar el archivo .gitignore ¿Por qué es conveniente incluirlo? ¿Cuándo se debe hacer?¿Cómo configuraría el archivo .gitignore?
+**¿Por qué es conveniente incluirlo?**  
+Para ignorar archivos innecesarios (ejecutables, temporales, archivos de sistema) y mantener el repositorio limpio y eficiente.
 
-_Es comveniente incluir el archivo para ignorar archivos innecesarios (ej: temporales, ejecutables) y optimizar el repositorio._
+**¿Cuándo se debe hacer?**  
+Al iniciar un proyecto, antes del primer commit.
 
-_Es conveniente crearlo al iniciar un proyecto_
+**¿Cómo configurarlo?**  
+1. Crear archivo `.gitignore` en la raíz del proyecto
+2. Agregar patrones de archivos a ignorar, por ejemplo para C (*.exe
+*.o)
 
-_Hay que crear un archivo con el nombre .gitignore en la raíz del proyecto._
 
-## 3c) Revise los archivos subidos en su repositorio de github. ¿Qué archivos vé?¿Cuál cree que no hace falta que esté?
+## 3c) Revise los archivos subidos en su repositorio de github
 
-_En mi repositorio estan los archivos: README.md, tp1_1.c, tp1_1.exe._
-_No hace falta que esté el archivo .exe_
+**Archivos presentes:**
+- README.md
+- tp1_1.c
+- tp1_1.exe
 
-## 3g) Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué? Responder en el archivo readme.md
+**Archivo innecesario:**  
+`tp1_1.exe` (es un ejecutable generado al ejecutar el codigo .C)
 
-_El resultado es el mismo ya que el contenido del puntero es la direccion de memoria de la variable a la cual esta apuntando._
-_En el punto 4 obtengo otra direccion de memoria, ya que es la de la variable de tipo puntero._
+## 3g) Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo
+
+**¿Por qué los puntos 2 y 3 dan el mismo resultado? ¿A que se debe?**  
+Porque en ambos casos se obtiene la dirección de memoria de la variable a la que apunta el puntero.
+
+**Resultado en punto 4:**  
+Obtiene una dirección de memoria diferente, correspondiente a la direccion de memoria de la variable de tipo puntero.
+
+**Diferencia con los anteriores:**  
+No es igual porque mientras los puntos 2 y 3 muestran la dirección almacenada en el puntero, el punto 4 muestra la dirección de memoria del puntero.
